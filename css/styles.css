@@ -105,13 +105,10 @@ article {
     font-family: "IBMPlexMono-Regular";
     background-color: white;
     color: black;
+    font-size: 1rem;
 }
 
 .wide {
-    grid-column: span 2;
-}
-
-.tall {
     grid-column: span 2;
 }
 
@@ -302,9 +299,24 @@ text-align: center;
 }
 
 
-@media (max-width: 600px) {
-    .container {
-    height: 500px;
-    flex-direction: column;
+@media (max-width: 768px) {
+    .container, .box-1, .box-2, .box-3, .box-4, .box-5 {
+    height: auto;
+    display: block;
+    align-items: center;
+    font-size: 1rem;
+    padding-top: 40px;
 }  
+} 
+
+@media all and (max-width: 768px) {
+    .grid-container {
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+    } 
+    .grid-item1, .grid-item2, .grid-item3, .grid-item4, .grid-item5, .grid-item6, .grid-item7, .grid-item8, .grid-item9, .grid-item10, .grid-item11, .grid-item12, .grid-item13 {
+        margin-top: 50px;
+        font-size: 1rem;
+    } 
 } 
