@@ -56,6 +56,11 @@ color: white;
 text-decoration: none;
 }
 
+header li a:hover{
+    color: rgb(176, 255, 29);
+    text-decoration: none;
+    }
+
 section article {
     width: 75%;
     height: 500px;
@@ -71,25 +76,17 @@ p {
     margin-left: 5px;
 }
 
-.revelar {
-    list-style: none;
+article {
     text-align: justify;
 }
 
-.revelar li{
+.revelar {
     display: inline-block;
     text-align: justify;
     background-color: white;
 }
 
-.revelar li a{
-    display: inline-block;
-    text-align: justify;
-    color: white;
-    text-decoration: none;
-}
-
-.revelar li a:hover {
+.revelar:hover {
     color: white;
     background-color: black;
 }
