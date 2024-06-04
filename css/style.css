@@ -10,6 +10,12 @@ body {
   color: white;
 }
 
+.bg{
+  background-color: rgb(0, 0, 0);
+  font-family: "IBMPlexMono-Regular";
+  color: white;
+}
+
 @font-face {
   font-family: "IBMPlexMono-Regular";
   src: url("../fonts/IBMPlexMono-Regular.ttf");
@@ -25,49 +31,62 @@ header {
   padding: 2rem;
   padding-top: 30px;
 }
-header h1 {
+
+header nav{
+  background-color: black;
+}
+
+header nav .navbar-brand{
+  color: white;
+}
+
+.navbar-brand {
   font-family: "DotGhotic16-Regular";
   display: inline;
   letter-spacing: 1px;
 }
+
 header li {
   margin-left: 5px;
   list-style-type: none;
   text-align: justify;
   padding: 1rem;
+  font-family: "IBMPlexMono-Regular";
+  display: table-row;
 }
-header .menu {
+
+header .nav-item {
   list-style-type: none;
+  display: table-row;
 }
-header .menu a {
-  display: inline-block;
+
+header .nav-link {
+  display: table-row;
   text-align: center;
   margin-inline: auto;
   color: white;
   text-decoration: none;
 }
-header .menu a:hover {
+header .nav-link:hover {
   color: rgb(176, 255, 29);
   text-decoration: none;
 }
 header nav {
   list-style-type: none;
+  display: table-row;
 }
-header nav li {
+header .nav-link li {
   margin-left: 5px;
   list-style-type: none;
   text-align: justify;
   padding: 1rem;
+  display: table-row;
 }
-header nav li a {
-  display: inline-block;
+header .nav-item li a {
+  display: table-row;
   text-align: center;
   margin-inline: auto;
   color: white;
-  text-decoration: none;
-}
-header nav li a:hover {
-  color: rgb(176, 255, 29);
   text-decoration: none;
 }
 
