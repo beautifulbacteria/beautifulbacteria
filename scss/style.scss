@@ -10,6 +10,12 @@ body {
     color: white;
 }
 
+.bg { 
+    background-color: rgb(0, 0, 0);
+    font-family: "IBMPlexMono-Regular";
+    color: white;
+}
+
 
 @font-face {
     font-family: "IBMPlexMono-Regular";
@@ -28,10 +34,11 @@ header {
     padding: 2rem;
     padding-top: 30px;
 
-    h1 { 
+    .navbar-brand { 
         font-family: "DotGhotic16-Regular";
         display: inline;
         letter-spacing: 1px;
+        color: white;
     }
 
     li{ 
@@ -41,8 +48,9 @@ header {
         padding: 1rem;
     }
 
-    .menu {
+    .nav-item {
         list-style-type: none;
+        color: white;
 
         a{
             display: inline-block;
