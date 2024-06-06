@@ -15,58 +15,11 @@
     src: url("../fonts/DotGothic16-Regular.ttf");
 }
 
-.container{
-    display: flex;
-    padding: 30px;
-    gap: 1rem;
-    
-    .description { 
-        font-size: 1rem;
-        background-color: white;
-        color: black;
-        text-align: justify;
-    }
-
-    .box-1 {
-        flex: 1;
-        height: 500px;
-        display: flex;
-        padding: 30px;
-        
-    }    
-    
-    .box-2 {
-        flex: 1;
-        height: 500px;
-        display: flex;
-        padding: 30px;
-        
-    }
-    
-    .box-3 {
-        flex: 1;
-        height: 500px;
-        display: flex;
-        padding: 30px;
-        
-    }
-    
-    .box-4 {
-        flex: 1;
-        height: 500px;
-        display: flex;
-        padding: 30px;
-        
-    }
-    
-    .box-5 {
-        flex: 1;
-        height: 500px;
-        display: flex;
-        padding: 30px;
-        
-    }
-} 
+.carousel-item {
+    padding: 40px;
+    height: 50rem;
+    background-color: black;
+}
 
 
 
