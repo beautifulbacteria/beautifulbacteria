@@ -1,3 +1,10 @@
+h3 {
+    font-family: "DotGhotic16-Regular";
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    padding-top: 100px;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -39,6 +46,34 @@
         text-align: justify;
     }
 
+    .grid-item1 {
+        &:hover {
+            transform: scale(1.1, 1.1);
+            transition: all 1.5s;
+        }
+    }
+
+    .grid-item2 {
+        &:hover {
+            transform: scale(1.1, 1.1);
+            transition: all 1.5s;
+        }
+    }
+
+    .grid-item3 {
+        &:hover {
+            transform: scale(1.1, 1.1);
+            transition: all 1.5s;
+        }
+    }
+
+    .grid-item4 {
+        &:hover {
+            transform: scale(1.1, 1.1);
+            transition: all 1.5s;
+        }
+    }
+
     .grid-item5 iframe {
         visibility: hidden;
     }
@@ -46,6 +81,27 @@
     .grid-item5:hover 
     .hidden-element {
         visibility: visible;
+    }
+
+    .grid-item6 {
+        &:hover {
+            transform: scale(1.1, 1.1);
+            transition: all 1.5s;
+        }
+    }
+
+    .grid-item7 {
+        &:hover {
+            transform: scale(1.1, 1.1);
+            transition: all 1.5s;
+        }
+    }
+
+    .grid-item8 {
+        &:hover {
+            transform: scale(1.1, 1.1);
+            transition: all 1.5s;
+        }
     }
     
     .grid-item9 img {
@@ -56,6 +112,13 @@
     .hidden-element {
         visibility: visible;
     }
+
+    .grid-item10 {
+        &:hover {
+            transform: scale(1.1, 1.1);
+            transition: all 1.5s;
+        }
+    }
     
     .grid-item11 img {
         visibility: hidden;
@@ -64,5 +127,19 @@
     .grid-item11:hover 
     .hidden-element {
         visibility: visible;
+    }
+
+    .grid-item12 {
+        &:hover {
+            transform: scale(1.1, 1.1);
+            transition: all 1.5s;
+        }
+    }
+
+    .grid-item13 {
+        &:hover {
+            transform: scale(1.1, 1.1);
+            transition: all 1.5s;
+        }
     }
 }
