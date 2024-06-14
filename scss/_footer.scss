@@ -1,9 +1,9 @@
 footer {
     height: auto;
-    width: 100vw;
+    width: 100%;
     font-family: "IBMPlexMono-Regular";
     padding-top: 350px;
-    color: white;
+    color: rgb(255, 255, 255);
 
     .footer-content {
         display: flex;
@@ -14,9 +14,9 @@ footer {
 
         h1 { 
             font-family: "DotGhotic16-Regular";
-            display: inline;
+            display: inline-block;
             letter-spacing: 1px;
-            font-size: 1.8rem;
+            font-size: 1.5rem;
             font-weight: 400;
             text-transform: capitalize;
             line-height: 3rem;
@@ -47,7 +47,8 @@ footer {
 
      .footer-bottom{
         background-color: black;
-        width: 100vw;
+        height: auto;
+        width: 100%;
         padding: 20px 0;
         text-align: center;
 

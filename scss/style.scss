@@ -73,18 +73,18 @@
 
     .footer-content {
         h1 {
-            font-family: "DotGhotic16-Regular";
-            display: inline;
-            letter-spacing: 1px;
-            font-size: 1rem;
-            font-weight: 100;
-            text-transform: capitalize;
-            line-height: 1rem;
-        }
-
-        i{
-            font-size: 1rem;
-            transition: color .4s ease;
+                font-family: "DotGhotic16-Regular";
+                display: inline-block;
+                letter-spacing: 1px;
+                font-size: 1rem;
+                font-weight: 100;
+                text-transform: capitalize;
+                line-height: 1rem;
+            }
+    
+            i{
+                font-size: 1rem;
+                transition: color .4s ease;
             }
     }
 }
@@ -142,7 +142,7 @@
     .footer-content {
         h1 {
             font-family: "DotGhotic16-Regular";
-            display: inline;
+            display: inline-block;
             letter-spacing: 1px;
             font-size: 2rem;
             font-weight: 200;
@@ -209,7 +209,7 @@
     .footer-content {
         h1 {
             font-family: "DotGhotic16-Regular";
-            display: inline;
+            display: inline-block;
             letter-spacing: 1px;
             font-size: 3rem;
             font-weight: 100;
