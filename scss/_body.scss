@@ -1,14 +1,14 @@
 /* Body */
 
 body { 
-    background-color: rgb(0, 0, 0);
+    background-color: $colordark;
     font-family: "IBMPlexMono-Regular";
-    color: white;
+    color: $colorlight;
     overflow-x: hidden;
 }
 
 .bg { 
-    background-color: rgb(0, 0, 0);
+    background-color: $colordark;
     font-family: "IBMPlexMono-Regular";
-    color: white;
+    color: $colorlight;
 }

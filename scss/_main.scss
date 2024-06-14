@@ -2,14 +2,14 @@
 
 h3 {
     font-family: "DotGhotic16-Regular";
-    color: rgb(255, 255, 255);
+    color: $colorlight;
     font-size: 3rem;
     padding-top: 100px;
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 300px;
     gap: 30px;
     row-gap: 80px;
@@ -18,8 +18,8 @@ h3 {
 
     .decoration{
         font-family: "IBMPlexMono-Regular";
-        background-color: white;
-        color: black;
+        background-color: $colorlight;
+        color: $colordark;
         font-size: 1rem;
     }
 

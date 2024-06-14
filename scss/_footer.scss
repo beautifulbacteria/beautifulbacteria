@@ -5,7 +5,7 @@ footer {
     width: 100%;
     font-family: "IBMPlexMono-Regular";
     padding-top: 350px;
-    color: rgb(255, 255, 255);
+    color: $colorlight;
 
     .footer-content {
         display: flex;
@@ -33,10 +33,10 @@ footer {
 
             a {
                 text-decoration: none;
-                color: white;
+                color: $colorlight;
                 padding: 2rem;
                 &:hover {
-                    color: rgb(176, 255, 29);
+                    color: $colorneongreen;
                     }
 
                 i{
@@ -48,7 +48,7 @@ footer {
      }
 
      .footer-bottom{
-        background-color: black;
+        background-color: $colordark;
         height: auto;
         width: 100%;
         padding: 20px 0;

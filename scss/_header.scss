@@ -11,7 +11,7 @@ header {
         font-family: "DotGhotic16-Regular";
         display: inline;
         letter-spacing: 1px;
-        color: white;
+        color: $colorlight;
     }
 
     li{ 
@@ -23,17 +23,17 @@ header {
 
     .nav-item {
         list-style-type: none;
-        color: white;
+        color: $colorlight;
 
         a{
             display: inline-block;
             text-align: center;
             margin-inline: auto;
-            color: white;
+            color: $colorlight;
             text-decoration: none;
 
             &:hover{
-                color: rgb(176, 255, 29);
+                color: $colorneongreen;
                 text-decoration: none;
                 }
         }
@@ -52,11 +52,11 @@ header {
                 display: inline-block;
                 text-align: center;
                 margin-inline: auto;
-                color: white;
+                color: $colorlight;
                 text-decoration: none;
     
                 &:hover{
-                    color: rgb(176, 255, 29);
+                    color: $colorneongreen;
                     text-decoration: none;
                     }
             }

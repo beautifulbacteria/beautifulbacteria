@@ -5,14 +5,14 @@ article {
     height: 500px;
     margin-top: 200px;
     margin-left: 5px;
-    display: inline-block;
+    display: inline;
     padding: 3rem;
 
-    h1 { 
+    h2 { 
         font-family: "DotGhotic16-Regular";
-        display: inline;
+        display: inline-block;
         letter-spacing: 1px;
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     p { 
@@ -23,13 +23,13 @@ article {
     }
 
     .revelar {
-        display: inline-block;
+        display: inline;
         text-align: justify;
-        background-color: white;
+        background-color: $colorlight;
 
         &:hover {
-            color: white;
-            background-color: black;
+            color: $colorlight;
+            background-color: $colordark;
         }
     }
 }
