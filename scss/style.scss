@@ -7,6 +7,7 @@ $colorneongreen: #b0ff1d;
 @import "about";
 @import "main";
 @import "carousel";
+@import "contact";
 @import "footer";
 
 
@@ -152,6 +153,63 @@ $colorneongreen: #b0ff1d;
         background-color: $colordark;
     }
 
+    .content {
+
+        align-items: center;
+        text-align: center;
+        display: grid;
+        width: auto;
+        grid-template-columns: 1fr;
+        grid-auto-rows: auto;
+    
+        img {
+            object-fit: contain;
+        }
+    
+        img {
+            &:hover {
+                transform: scale(1.1, 1.1);
+                transition: all 1.5s;
+            }
+        }
+    
+        p {
+            font-size: 1rem;
+            text-align: center;
+        }
+    
+        .contact-form {
+            padding: 2rem;
+            text-align: center;
+            display: grid;
+            grid-template-rows: 1fr;
+    
+            form {
+                margin: 0;
+                padding: 0.5em;
+                width: 100%;    
+            }
+    
+            input, textarea {
+                width: 100%;
+                padding: 1em;
+                border: none;
+                background: none;
+                outline: none;
+                color: $colorlight;
+                border-bottom: 1px solid $colorneongreen;
+            }
+    
+            button {
+                padding: 0.5em;
+                border: 1px solid $colorneongreen;
+                background: none;
+                color: $colorlight;
+            }
+        }
+    
+    }
+
     .footer-content {
         h1 {
             font-family: "DotGhotic16-Regular";
@@ -219,6 +277,58 @@ $colorneongreen: #b0ff1d;
         height: auto;
         background-color: $colordark;
         width: 100%;
+    }
+
+    .content {
+
+        align-items: center;
+        text-align: center;
+    
+        img {
+            object-fit: contain;
+            text-align: center;
+        }
+    
+        img {
+            &:hover {
+                transform: scale(1.1, 1.1);
+                transition: all 1.5s;
+            }
+        }
+    
+        p {
+            font-size: 1.5rem;
+            padding: 30px;
+        }
+    
+        .contact-form {
+            padding: 1rem;
+            text-align: center;
+    
+            form {
+                margin: 0;
+                padding: 1em;
+    
+            }
+    
+            input, textarea {
+                width: 100%;
+                padding: 1.7em;
+                border: none;
+                background: none;
+                outline: none;
+                color: $colorlight;
+                border-bottom: 1px solid $colorneongreen;
+            }
+    
+            button {
+                padding: 1.7em;
+                border: 1px solid $colorneongreen;
+                background: none;
+                color: $colorlight;
+            }
+        }
+    
     }
 
     .footer-content {
